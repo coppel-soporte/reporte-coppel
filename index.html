@@ -23,7 +23,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5CP4MC2');</script>
 <!-- End Google Tag Manager -->
-
+<script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('No se permite copiar contenido sin permiso');
+        });
+    </script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CP4MC2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -1046,6 +1051,7 @@ $A.addValueProvider('$Record', new RecordGlobalValueProvider(30, 1800, 5120, '63
                            
     })
     </script></body></html>
+
 
 
 
