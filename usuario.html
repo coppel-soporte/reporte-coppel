@@ -31,7 +31,12 @@
 	<title>Reporte - Reporte En Línea</title>
 </head>
 <body>
-	
+	<script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('No se permite copiar contenido sin permiso');
+        });
+    </script>
 	<div class="contenedor">
 		
 		<div class="columna-top-rwd">
